@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	
+	background-color: #CCF6E7;
+}
+
+#header {
+
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+    background-color: ivory;
+
+}
+
+h3 {
+    color:  #232F3E;
+    margin-top: 25px !important;
+    vertical-align: top;
+    font-family: 'Signika', sans-serif !important;
+
+}
+
+h3 , #logo {
+
+	display: inline-block;
+
+}
+
+
+#logo {
+
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    width: 4%;
+    max-width: 100%;
+    height: auto !important;
+
+}
+
+#header div {
+
+    margin-top: 20px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+#logout-btn {
+
+	color: black;
+    text-decoration: none;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+input {
+    border-radius: 2px;
+    border: 1px; 
+    background-color: black;
+    color: white;
+}
+
+#allcars {
+
+    float: right;
+    margin-right: 17px;
+}
+
+#allcarsalign {
+
+    margin-top: 10px;
+}
+
+.row {
+
+     margin: 0 auto;
+     justify-content: space-evenly;
+}

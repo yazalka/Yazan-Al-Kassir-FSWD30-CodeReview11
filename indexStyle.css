@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+body{
+
+	background-image: url(index-foto.jpg);
+		background-size: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		margin: auto;
+
+}
+
+img {
+
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    width: 4%;
+
+}
+
+h3 {
+	color:  #232F3E;
+    margin-top: 25px;
+    vertical-align: top;
+	font-family: 'Signika', sans-serif;
+
+}
+
+h3 , img {
+
+	display: inline-block;
+}
+
+
+#header {
+
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background-color: ivory;
+	
+}
+h1,#content {
+
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Signika', sans-serif;
+	font-size: 2.6em;
+
+}
+
+#content {
+
+	font-size: 1.3em;
+	padding-bottom: 10px;
+
+}
+
+p,input {
+
+	display: block;
+
+}
+
+p {
+
+	color:red;
+}
+
+#register_form,#signin_form { 
+
+	display: none;
+
+}
+
+#card, #signin_form {
+
+    margin-top: 200px;
+}
+
+
+#card {
+
+    margin-left: 100px;
+
+}
+
+
+ #signin_form input {
+
+	height: 43px;
+    width: 317px;
+    margin-top: 11px;
+    font-size: 20px;
+    opacity: 0.9;
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+
+
+#signin_form input:last-child {
+
+    width: 95px;
+
+}
+
+.signin_botton {
+
+	width: 95px !important;
+}
+
+
+#register_form input {
+
+	height: 43px;
+    width: 317px;
+    margin-top: 11px;
+    font-size: 20px;
+    opacity: 0.9;
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+
+#register_form {
+
+	margin-top: 200px;
+
+}
+
+
+.register_botton {
+
+    width: 95px !important;
+
+}
+
+
+
+#register_form input::placeholder, #signin_form input::placeholder {
+
+	color: black;
+
+}
+
+@media (max-width: 480px) { 
+
+	#card,#register_form,#signin_form{
+
+		margin-top: 50px;
+		margin-left: 90px;
+	}
+
+}
+@media (max-width: 1188px) { 
+
+	#register_form,#signin_form{
+
+		margin-top: 50px;
+		margin-left: 90px;
+
+	}
+}
+
+
+#signin_botton, #register_botton {
+
+    height: 80px;
+    width: 145px;
+    border-radius: 6px;
+    border: 1px;
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: ivory;
+	font-family: 'Lobster', cursive;
+	
+}
+
+
