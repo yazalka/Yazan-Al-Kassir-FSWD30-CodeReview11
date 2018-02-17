@@ -84,3 +84,7 @@ input {
      margin: 0 auto;
      justify-content: space-evenly;
 }
+
+hr {
+    height: 1px;
+}

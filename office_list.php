@@ -44,6 +44,7 @@
 	while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
 ?>
+	<hr>
 	<div class="row">
 	<h1 class="col-lg-6 col-md-8 col-sm-8 col-9"> <?= $row['name'] ?> at <?= $row["address"] ?> </h1>
 	<form action='cars_list.php' method='post'>
@@ -53,6 +54,7 @@
 	</form>
 	</div>
 
+
 <?php  
 
 	}
@@ -60,6 +62,7 @@
 	mysqli_close($conn);
 
 ?>
+<hr>
 			<div class="col-lg-3" id="allcarsalign">
 				<form action="cars_list.php" method="post" accept-charset="utf-8">
 					<input id="allcars" type="submit" name="" value="Show all cars">
