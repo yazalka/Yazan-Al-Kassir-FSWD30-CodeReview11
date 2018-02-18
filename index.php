@@ -229,3 +229,5 @@ if(isset($_SESSION['name'])){   // if logged in cant go to home page :D
                   </form>
           </div>
     </body>
+
+   </html>

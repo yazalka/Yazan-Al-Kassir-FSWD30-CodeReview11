@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Signika');
 
-body{
-
+body {
+    margin: auto;
 	background-image: url(index-foto.jpg);
-		background-size: 100%;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		margin: auto;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 
 }
 
@@ -177,5 +176,6 @@ p {
 	font-family: 'Lobster', cursive;
 	
 }
+
 
 

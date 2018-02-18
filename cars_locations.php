@@ -66,5 +66,10 @@
 						<input type="submit" name="" value="Offices list">
 					</form>
 				</div>
+			<footer id="footer">
+				<div>
+					 2017-2018 &copy; | Car Rental 
+				</div>
+			</footer>
 	</body>
 </html>

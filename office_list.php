@@ -48,7 +48,7 @@
 	<div class="row">
 	<h1 class="col-lg-6 col-md-8 col-sm-8 col-9"> <?= $row['name'] ?> at <?= $row["address"] ?> </h1>
 	<form action='cars_list.php' method='post'>
-			<input id="visit" type='hidden' name='id' value="<?= $row['office_id'] ?>"> <!-- so we get office_id and office name in cars_list.php --> 
+			<input id="visit" type='hidden' name='id' value="<?= $row['office_id'] ?>"> <!-- so we get office_id and office name in cars_list.php -->
 			<input id="visit" type='hidden' name='name' value="<?=$row['name'] ?>">
 			<input id="visit" type='submit' name='officevisit' value='Visit Office'>
 	</form>
@@ -68,5 +68,11 @@
 					<input id="allcars" type="submit" name="" value="Show all cars">
 				</form>
 			</div>
+
+			<footer id="footer">
+				<div>
+					 2017-2018 &copy; | Car Rental 
+				</div>
+			</footer>
 		</body>
 	</html>

@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { 
+  box-sizing: inherit !important;
+}
+
 body {
-	
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 	background-color: #CCF6E7;
+
 }
 
 #header {
@@ -87,4 +102,22 @@ input {
 
 hr {
     height: 1px;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: ivory;
+    text-align: center;
+}
+
+
+#footer div {
+    color: black;
+    margin: 0 auto; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
 }
